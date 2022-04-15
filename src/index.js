@@ -47,7 +47,7 @@ const WeatherApp = () => {
         style={{
           height: "5px",
           width: "100%",
-          backgroundColor: "blue",
+          backgroundColor: "green",
         }}
       ></div>
       <br />
@@ -56,7 +56,7 @@ const WeatherApp = () => {
           style={{
             height: "150px",
             width: "450px",
-            backgroundColor: "#94e5ff",
+            backgroundColor: "green",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -85,7 +85,7 @@ const WeatherApp = () => {
             getWeatherData(city, country);
           }}
         >
-          GET
+          VER
         </button>
       </div>
     </>
